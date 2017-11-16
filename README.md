@@ -1,2 +1,4 @@
 # djmediamixer
-dj mixer with openframeworks
+- djmediamixer with openframeworks
+- djing + vjing
+
