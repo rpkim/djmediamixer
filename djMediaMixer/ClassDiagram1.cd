@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="djcirclebutton">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACAAgCADIIIAAgAQAQAESAAAAEAAAEAEAg=</HashCode>
+      <FileName>uicomponent\djcirclebutton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="djrectbutton">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBAACAAAAAAADAIBAAAAQBQBAAEQEgOAAAAEAEw=</HashCode>
+      <FileName>uicomponent\djrectbutton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="djscratchplayer">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAIAAgAACAAAQAAAAAFgAAAAAAg=</HashCode>
+      <FileName>uicomponent\djscratchplayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="djsliderbar">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAIAAAAggAjAMIAICAAAQAACAQEiGgAAwAAgw=</HashCode>
+      <FileName>uicomponent\djsliderbar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="djMediaMixerApp" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EDgAAECAQAAAAAgAQRIAOAAAgoAEAAABIEgMgCQMEAA=</HashCode>
+      <FileName>src\djMediaMixerApp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DJBTNTYPE">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAAACAAAAAAAMAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>uicomponent\djrectbutton.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>

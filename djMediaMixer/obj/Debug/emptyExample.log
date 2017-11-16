@@ -1,0 +1,34 @@
+﻿Build started 2012-05-29 오전 10:40:52.
+     1>Project "C:\OpenFrameworks\apps\examples\djMediaMixer\emptyExample.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj\Debug\djMediaMixerApp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       PostBuildEvent:
+         Description: adding DLLs and creating data folder
+         xcopy /e /i /y "C:\OpenFrameworks\apps\examples\djMediaMixer\..\..\..\export\vs2010\*.dll" "C:\OpenFrameworks\apps\examples\djMediaMixer\bin"
+         if not exist "C:\OpenFrameworks\apps\examples\djMediaMixer\bin\data" mkdir  "C:\OpenFrameworks\apps\examples\djMediaMixer\bin\data"
+         
+         :VCEnd
+         C:\OpenFrameworks\apps\examples\djMediaMixer\..\..\..\export\vs2010\Assimp32.dll
+         C:\OpenFrameworks\apps\examples\djMediaMixer\..\..\..\export\vs2010\fmodex.dll
+         C:\OpenFrameworks\apps\examples\djMediaMixer\..\..\..\export\vs2010\fmodexL.dll
+         C:\OpenFrameworks\apps\examples\djMediaMixer\..\..\..\export\vs2010\FreeImage.dll
+         C:\OpenFrameworks\apps\examples\djMediaMixer\..\..\..\export\vs2010\FreeType-6.dll
+         C:\OpenFrameworks\apps\examples\djMediaMixer\..\..\..\export\vs2010\glut32.dll
+         C:\OpenFrameworks\apps\examples\djMediaMixer\..\..\..\export\vs2010\Zlib.dll
+         7개 파일이 복사되었습니다.
+       FinalizeBuildStatus:
+         Deleting file "obj\Debug\djMediaMixerApp.unsuccessfulbuild".
+         Touching "obj\Debug\djMediaMixerApp.lastbuildstate".
+     1>Done Building Project "C:\OpenFrameworks\apps\examples\djMediaMixer\emptyExample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.86

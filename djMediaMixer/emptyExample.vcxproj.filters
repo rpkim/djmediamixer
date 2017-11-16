@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="uicomponent\djcirclebutton.cpp">
+      <Filter>UIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="uicomponent\djrectbutton.cpp">
+      <Filter>UIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="uicomponent\djscratchplayer.cpp">
+      <Filter>UIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="uicomponent\djsliderbar.cpp">
+      <Filter>UIComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="src\djMediaMixerApp.cpp" />
+    <ClCompile Include="virtual_dj_player.cpp" />
+    <ClCompile Include="media\MediaManager.cpp" />
+    <ClCompile Include="media\soundmanager.cpp" />
+    <ClCompile Include="media\videomanager.cpp" />
+    <ClCompile Include="serial\djserial.cpp" />
+    <ClCompile Include="core\AABB.cpp" />
+    <ClCompile Include="core\Body.cpp" />
+    <ClCompile Include="core\ClosedShape.cpp" />
+    <ClCompile Include="core\ofxJello.cpp" />
+    <ClCompile Include="core\ofxJelloBody.cpp" />
+    <ClCompile Include="core\ofxJelloSpringBody.cpp" />
+    <ClCompile Include="core\PointMass.cpp" />
+    <ClCompile Include="core\PressureBody.cpp" />
+    <ClCompile Include="core\SpringBody.cpp" />
+    <ClCompile Include="core\Vector2.cpp" />
+    <ClCompile Include="core\Vector3.cpp" />
+    <ClCompile Include="core\VectorTools.cpp" />
+    <ClCompile Include="core\World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\OnsetsDS\onsetsds.h" />
+    <ClInclude Include="uicomponent\djcirclebutton.h">
+      <Filter>UIComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomponent\djrectbutton.h">
+      <Filter>UIComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomponent\djscratchplayer.h">
+      <Filter>UIComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="uicomponent\djsliderbar.h">
+      <Filter>UIComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="src\djMediaMixerApp.h" />
+    <ClInclude Include="uicomponent\djuicomponent.h" />
+    <ClInclude Include="virtual_dj_player.h" />
+    <ClInclude Include="media\videomanager.h" />
+    <ClInclude Include="media\MediaManager.h" />
+    <ClInclude Include="media\soundmanager.h" />
+    <ClInclude Include="serial\djserial.h" />
+    <ClInclude Include="core\AABB.h" />
+    <ClInclude Include="core\Bitmask.h" />
+    <ClInclude Include="core\Body.h" />
+    <ClInclude Include="core\ClosedShape.h" />
+    <ClInclude Include="core\CollisionFilter.h" />
+    <ClInclude Include="core\InternalSpring.h" />
+    <ClInclude Include="core\ofxJello.h" />
+    <ClInclude Include="core\ofxJelloBody.h" />
+    <ClInclude Include="core\ofxJelloSpringBody.h" />
+    <ClInclude Include="core\PointMass.h" />
+    <ClInclude Include="core\PressureBody.h" />
+    <ClInclude Include="core\SpringBody.h" />
+    <ClInclude Include="core\Vector2.h" />
+    <ClInclude Include="core\Vector3.h" />
+    <ClInclude Include="core\VectorTools.h" />
+    <ClInclude Include="core\World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UIComponent">
+      <UniqueIdentifier>{216919f5-86cd-4588-b340-ae841d83ebea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
